@@ -1,0 +1,15 @@
+.countries-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.flag img {
+  width: 70px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .countries-container {
+    grid-template-columns: 1fr;
+  }
+}
